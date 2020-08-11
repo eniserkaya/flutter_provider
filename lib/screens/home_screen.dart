@@ -4,9 +4,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Title')),
+        appBar: AppBar(title: Text('Title'),backgroundColor: Colors.black54,),
         body: Container(
-            decoration: BoxDecoration(color: Colors.red),
+            decoration: BoxDecoration(color: Colors.black54),
         ),
     );
   }
